@@ -1,0 +1,657 @@
+{
+  "version": 40,
+  "R": true,
+  "M": false,
+  "V": false,
+  "D": false,
+  "disclaimer_text": "اخلاء مسوليه",
+  "force_update": false,
+  "title": "تحديث مطلوب",
+  "message": "يرجى تحديث التطبيق للاستمرار.",
+  "app_store_url": "",
+  "min_version": "1.0.0",
+  "iptv_visible": false,
+  "today_visible": false,
+  "worldcup_visible": false,
+  "predictions_visible": false,
+  "match_replays_visible": false,
+  "match_replays_url": "https://tubitv.com/tv-shows/200371229/usa-vs-belgium",
+  "match_replays_title": "اعادة المباريات",
+  "movies_visible": false,
+  "movies_url": "https://tubitv.com/movies/100029237/lionel-messi-the-greatest",
+  "movies_title": "افلام",
+  "last_moment_visible": false,
+  "last_moment_playlist_id": "PLczz3UIGL1XomL2PAj_YUCcwXuXm2PRm1",
+  "last_moment_title": "الكلمة الأخيرة",
+  "donate_enabled": false,
+  "donate_url": "https://www.paypal.com/donate/?business=37YZESEGYPNXL&no_recurring=0&item_name=%D8%A8%D8%AF%D8%B9%D9%85%D9%83%D9%85+%D9%86%D8%B3%D8%AA%D9%85%D8%B1&currency_code=USD",
+  "browser_start": {
+    "bolt_icon": "bolt.fill",
+    "flag_enabled": false,
+    "flag_url": "https://raw.githubusercontent.com/TrueIntelligence/BarqAljanoob/main/assets/SouthYemenFlag.png"
+  },
+  "tabs": {
+    "browser": {
+      "title": "المتصفّح",
+      "icon": "globe",
+      "visible": true
+    },
+    "canvas": {
+      "title": "المباريات",
+      "icon": "play.tv",
+      "visible": false
+    },
+    "today": {
+      "title": "اليوم",
+      "icon": "sportscourt",
+      "visible": false
+    },
+    "worldcup": {
+      "title": "كأس العالم",
+      "icon": "globe.europe.africa.fill",
+      "visible": false
+    },
+    "predictions": {
+      "title": "التوقعات",
+      "icon": "chart.bar.xaxis",
+      "visible": false
+    },
+    "iptv": {
+      "title": "مشغل قنوات",
+      "icon": "sparkles.tv.fill",
+      "visible": false
+    },
+    "downloads": {
+      "title": "التنزيلات",
+      "icon": "arrow.down.circle",
+      "visible": true
+    },
+    "files": {
+      "title": "الملفات",
+      "icon": "folder",
+      "visible": true
+    },
+    "match_replays": {
+      "title": "اعادة المباريات",
+      "icon": "arrow.counterclockwise.circle.fill",
+      "visible": false
+    },
+    "movies": {
+      "title": "افلام",
+      "icon": "film",
+      "visible": false
+    },
+    "last_moment": {
+      "title": "الكلمة الأخيرة",
+      "icon": "bolt.horizontal.circle.fill",
+      "visible": false
+    },
+    "settings": {
+      "title": "الإعدادات",
+      "icon": "gearshape",
+      "visible": true
+    }
+  },
+  "browser_shortcuts": true,
+  "download_popup": true,
+  "dedication_enabled": false,
+  "dedication_names_url": "https://raw.githubusercontent.com/TrueIntelligence/BarqAljanoob/main/dedication_names.json",
+  "dedication_names": [],
+  "south_store_enabled": false,
+  "contact_enabled": false,
+  "aradat_enabled": false,
+  "canvas": [],
+  "livePlayers": [
+    {
+      "id": "live-aljazeera",
+      "title": "الجزيرة",
+      "subtitle": "قناة الجزيرة الإخبارية",
+      "url": "https://live-hls-web-aja-fa.thehlive.com/AJA/index.m3u8",
+      "enabled": true
+    },
+    {
+      "id": "live-aljazeera-en",
+      "title": "Al Jazeera EN",
+      "subtitle": "Al Jazeera English",
+      "url": "https://live-hls-web-aje-fa.thehlive.com/AJE/index.m3u8",
+      "enabled": true
+    },
+    {
+      "id": "live-france24",
+      "title": "الفرنسيه",
+      "subtitle": "فرانس 24 عربي",
+      "url": "https://f24hls-i.akamaihd.net/hls/live/221147/F24_AR_HI_HLS/master.m3u8",
+      "enabled": true
+    }
+  ],
+  "browserPlayers": [
+    {
+      "id": "fox-sport",
+      "title": "Fox Sport",
+      "url": "https://www.youtube.com/watch?v=OJlwIdoFz9A",
+      "enabled": true
+    },
+    {
+      "id": "browser-1",
+      "title": "قناة 1",
+      "url": "https://player.syria-player.live/albaplayer/beinmax1/?serv=1",
+      "enabled": true
+    },
+    {
+      "id": "browser-2",
+      "title": "قناة 2",
+      "url": "https://player.syria-player.live/albaplayer/beinmax1/?serv=2",
+      "enabled": true
+    },
+    {
+      "id": "browser-3",
+      "title": "قناة 3",
+      "url": "https://player.syria-player.live/albaplayer/beinmax1/?serv=3",
+      "enabled": true
+    },
+    {
+      "id": "browser-4",
+      "title": "قناة 4",
+      "url": "https://player.syria-player.live/albaplayer/beinmax1/?serv=4",
+      "enabled": true
+    },
+    {
+      "id": "browser-5",
+      "title": "قناة 5",
+      "url": "https://player.syria-player.live/albaplayer/beinmax1/?serv=5",
+      "enabled": true
+    },
+    {
+      "id": "browser-6",
+      "title": "قناة 6",
+      "url": "https://www.majed-koora.com/",
+      "enabled": true
+    },
+    {
+      "id": "browser-7",
+      "title": "قناة 7",
+      "url": "https://player.syria-player.live/albaplayer/beinmax2/?serv=2",
+      "enabled": true
+    },
+    {
+      "id": "browser-8",
+      "title": "قناة 8",
+      "url": "https://player.syria-player.live/albaplayer/beinmax2/?serv=3",
+      "enabled": true
+    },
+    {
+      "id": "browser-9",
+      "title": "قناة 9",
+      "url": "https://player.syria-player.live/albaplayer/beinmax2/?serv=4",
+      "enabled": true
+    },
+    {
+      "id": "browser-10",
+      "title": "قناة 10",
+      "url": "https://player.syria-player.live/albaplayer/beinmax3/?serv=1",
+      "enabled": true
+    }
+  ],
+  "S": false,
+  "soccer": {
+    "title": "كرة القدم",
+    "tournament": "كأس العالم 2026",
+    "stage": "دور الـ8",
+    "last_updated": "2026-07-13",
+    "knockout_url": "https://raw.githubusercontent.com/TrueIntelligence/shaibsport-config/main/Knockout.json",
+    "teams": [],
+    "board_enabled": true,
+    "espn_path": "fifa.world",
+    "sportsdb_league_id": "4429",
+    "brackets_url": "https://www.365scores.com/ar/football/league/fifa-world-cup-5930/brackets"
+  },
+  "customBrowser": {
+    "enabled": true,
+    "title": "فتح أي رابط مباراة",
+    "subtitle": "الصق رابط مباشر لمشغل المباراة وسوف يتم تشغيلها مع حظر الإعلانات",
+    "start_url": "https://www.google.com"
+  },
+  "iptvPlaylists": [
+    {
+      "id": "example-playlist",
+      "name": "مثال قائمة M3U",
+      "url": "https://iptv-org.github.io/iptv/countries/sa.m3u",
+      "enabled": false
+    }
+  ],
+  "iptvChannels": [
+    {
+      "id": "example-channel",
+      "name": "مثال قناة مباشرة",
+      "url": "https://live-hls-web-aja-fa.thehlive.com/AJA/index.m3u8",
+      "group": "أخبار",
+      "logo": "",
+      "enabled": false
+    }
+  ],
+  "browser_visible": true,
+  "downloads_visible": true,
+  "files_visible": true,
+  "settings_visible": true,
+  "sportsBrowserTiles": [
+    {
+      "id": "kooraworld",
+      "title": "عالم الكرة",
+      "url": "https://kooraworld.net/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "livefootballfree",
+      "title": "كورة لايف",
+      "url": "https://livefootballfree.net/",
+      "flow": "stingPlay",
+      "enabled": true
+    },
+    {
+      "id": "kooora-world",
+      "title": "كورة اونلاين",
+      "url": "https://kooora.world/",
+      "flow": "stingPlay",
+      "enabled": true
+    },
+    {
+      "id": "sport-c",
+      "title": "سبورت سي",
+      "url": "https://sport-c.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "live-sporthdtv-mab",
+      "title": "كورة مباشر",
+      "url": "https://live-sporthdtv.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "live-sporthdtv-sy",
+      "title": "سوريا يلايف",
+      "url": "https://live-sporthdtv.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "laacibsports",
+      "title": "الجنوب سبورت",
+      "url": "https://laacibsports.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "livescore24",
+      "title": "لايف سكور",
+      "url": "https://livescore24.tv/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "kora-website",
+      "title": "كورة",
+      "url": "https://kora.website/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "sport-extra",
+      "title": "سبورت اكسترا",
+      "url": "https://sport-extra.net/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "footballkorat",
+      "title": "فوتبول كورة",
+      "url": "https://footballkorat.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "koorarm",
+      "title": "كورة ARM",
+      "url": "https://koorarm.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "ahlysports",
+      "title": "أهلي سبورت",
+      "url": "https://ahlysports.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "kooray-live",
+      "title": "كورة لايف TV",
+      "url": "https://kooray-live.tv/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "koorapress",
+      "title": "كورة برس",
+      "url": "https://koorapress.co/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "skooora",
+      "title": "سكورة",
+      "url": "https://skooora.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "tv-siir-live",
+      "title": "TV سير لايف",
+      "url": "https://tv-siir.net/koora-live/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "askoralive",
+      "title": "أسكورا لايف",
+      "url": "https://www.askoralive.live/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "koora4-cam",
+      "title": "كورة 4 CAM",
+      "url": "https://www.koora4.cam/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "kooray-today",
+      "title": "كورة اليوم",
+      "url": "https://kooray-live.tv/today-matches/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "koorapress-today",
+      "title": "كورة برس اليوم",
+      "url": "https://koorapress.co/matches-today/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "koooracity",
+      "title": "كورة سيتي",
+      "url": "https://koooracity.online/home1/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "kora-en-direct",
+      "title": "كورة EN Direct",
+      "url": "https://kora-en-direct.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "koraxkora",
+      "title": "كورة X",
+      "url": "https://www.koraxkora.com/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "livekora",
+      "title": "لايف كورة",
+      "url": "https://livekora.io/",
+      "flow": "maskTextScrollPlay",
+      "enabled": true
+    },
+    {
+      "id": "korralive-online",
+      "title": "كورة لايف Online",
+      "url": "https://korralive.online/",
+      "flow": "textMatch",
+      "enabled": true
+    },
+    {
+      "id": "koore-live",
+      "title": "كورة Live",
+      "url": "https://koore.live/",
+      "flow": "liveDot",
+      "enabled": true
+    },
+    {
+      "id": "bookonline",
+      "title": "Book Online",
+      "url": "https://www.bookonline.life/",
+      "flow": "overlayMatch",
+      "enabled": true
+    },
+    {
+      "id": "kogacity",
+      "title": "Koga City",
+      "url": "https://www.kogacity.life/",
+      "flow": "textMatch",
+      "enabled": true
+    },
+    {
+      "id": "yallakoraa",
+      "title": "يلا كورة",
+      "url": "https://yallakoraa.me/",
+      "flow": "textMatch",
+      "enabled": true
+    },
+    {
+      "id": "browse-kora.ws",
+      "title": "kora.ws",
+      "url": "https://kora.ws/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-kora4k-live.com",
+      "title": "kora4k-live.com",
+      "url": "https://kora4k-live.com/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-koora-llive.blog",
+      "title": "koora-llive.blog",
+      "url": "https://koora-llive.blog/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-koooramix.tv",
+      "title": "koooramix.tv",
+      "url": "https://koooramix.tv/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-kora360tvs.blog",
+      "title": "kora360tvs.blog",
+      "url": "https://kora360tvs.blog/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-acmawards50.com",
+      "title": "acmawards50.com",
+      "url": "https://www.acmawards50.com/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-kooora4lives.co",
+      "title": "kooora4lives.co",
+      "url": "https://kooora4lives.co/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-kooraaliive.com",
+      "title": "kooraaliive.com",
+      "url": "https://www.kooraaliive.com/directos",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-yalla-shoote.today",
+      "title": "yalla-shoote.today",
+      "url": "https://www.yalla-shoote.today/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-kooraliv.one",
+      "title": "kooraliv.one",
+      "url": "https://kooraliv.one/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-koraextralive.com",
+      "title": "koraextralive.com",
+      "url": "https://koraextralive.com/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-live-kooratv.com",
+      "title": "live-kooratv.com",
+      "url": "https://live-kooratv.com/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-gonzalopuch.com",
+      "title": "gonzalopuch.com",
+      "url": "https://gonzalopuch.com/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-kora-citiy.live",
+      "title": "kora-citiy.live",
+      "url": "https://kora-citiy.live/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-koraplus-hd.com",
+      "title": "koraplus-hd.com",
+      "url": "https://www.koraplus-hd.com/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-kora.blog",
+      "title": "kora.blog",
+      "url": "https://kora.blog/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-kora-live.now",
+      "title": "kora-live.now",
+      "url": "https://www.kora-live.now/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-koramatch.com",
+      "title": "koramatch.com",
+      "url": "https://koramatch.com/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-tv-siir.net",
+      "title": "tv-siir.net",
+      "url": "https://tv-siir.net/kora-online/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-koooralive360.com",
+      "title": "koooralive360.com",
+      "url": "https://koooralive360.com/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-koor.info",
+      "title": "koor.info",
+      "url": "https://koor.info/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-hikoralive.com",
+      "title": "hikoralive.com",
+      "url": "https://www.hikoralive.com/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-tvsir.tv",
+      "title": "tvsir.tv",
+      "url": "https://tvsir.tv/matches-today/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-koralcity.website",
+      "title": "koralcity.website",
+      "url": "https://www.koralcity.website/",
+      "flow": "browseOnly",
+      "enabled": true
+    },
+    {
+      "id": "browse-kora-livex.link",
+      "title": "kora-livex.link",
+      "url": "https://kora-livex.link/",
+      "flow": "browseOnly",
+      "enabled": true
+    }
+  ],
+  "browserShortcutTiles": [
+    {
+      "id": "google",
+      "title": "Google",
+      "url": "https://www.google.com",
+      "host": "google.com",
+      "symbol": "g.circle.fill",
+      "enabled": true
+    },
+    {
+      "id": "youtube",
+      "title": "YouTube",
+      "url": "https://m.youtube.com",
+      "host": "youtube.com",
+      "symbol": "play.rectangle.fill",
+      "enabled": true
+    },
+    {
+      "id": "duckduckgo",
+      "title": "DuckDuckGo",
+      "url": "https://duckduckgo.com",
+      "host": "duckduckgo.com",
+      "symbol": "shield.lefthalf.filled",
+      "enabled": true
+    },
+    {
+      "id": "dailymotion",
+      "title": "Dailymotion",
+      "url": "https://www.dailymotion.com",
+      "host": "dailymotion.com",
+      "symbol": "film.fill",
+      "enabled": true
+    }
+  ]
+}
