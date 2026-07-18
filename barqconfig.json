@@ -1,9 +1,9 @@
 {
-  "version": 40,
+  "version": 41,
   "R": true,
-  "M": false,
-  "V": false,
-  "D": false,
+  "M": true,
+  "V": true,
+  "D": true,
   "disclaimer_text": "اخلاء مسوليه",
   "force_update": false,
   "title": "تحديث مطلوب",
@@ -39,7 +39,7 @@
     "canvas": {
       "title": "المباريات",
       "icon": "play.tv",
-      "visible": false
+      "visible": true
     },
     "today": {
       "title": "اليوم",
